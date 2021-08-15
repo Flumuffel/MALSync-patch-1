@@ -1,0 +1,9 @@
+{
+  "search": "https://monoschinos2.com/search?q={searchtermPlus}",
+  "urls": {
+    "match": [
+      "*://monoschinos.com/*",
+      "*://monoschinos2.com/*"
+    ]
+  }
+}

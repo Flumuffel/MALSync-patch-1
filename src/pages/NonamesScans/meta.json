@@ -1,0 +1,6 @@
+{
+  "search": "https://the-nonames.com/comics?query={searchtermPlus}",
+  "urls": {
+    "match": ["*://the-nonames.com/*"]
+  }
+}

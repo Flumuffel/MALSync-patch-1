@@ -1,0 +1,6 @@
+{
+  "search": "https://mangapark.net/search?word={searchterm}",
+  "urls": {
+    "match": ["*://mangapark.net/*"]
+  }
+}

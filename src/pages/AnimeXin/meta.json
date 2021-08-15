@@ -1,0 +1,6 @@
+{
+  "search": "https://animexin.xyz/?s={searchtermPlus}",
+  "urls": {
+    "match": ["*://animexin.xyz/*"]
+  }
+}

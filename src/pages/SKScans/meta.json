@@ -1,0 +1,6 @@
+{
+  "search": "https://skscans.com/?s={searchtermPlus}",
+  "urls": {
+    "match": ["*://skscans.com/*"]
+  }
+}

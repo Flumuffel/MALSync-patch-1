@@ -1,0 +1,5 @@
+{
+  "urls": {
+    "match": ["*://frixysubs.pl/odcinki.html?id=*", "*://frixysubs.pl/ogladaj.html?id=*"]
+  }
+}

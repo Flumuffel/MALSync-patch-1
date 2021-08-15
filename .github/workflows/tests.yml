@@ -1,0 +1,24 @@
+name: Tests
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+    - name: install
+      run: |
+        npm ci
+    - name: Lint
+      run: |
+        npm run lint:ci
+    - name: Build
+      run: |
+        npm run build
+    - name: Tests
+      run: |
+        npm run test:ts:ci
+      env:
+        NO_API: true
